@@ -24,11 +24,11 @@ The project will follow the following steps:
 
 The project requires the following technologies:
 
-Data collection: SpaceX API
-Implementation: Python, Numpy, Pandas, scikit-learn
-Server: Python server
-Frontend: HTML, Streamlit
-Please ensure that these technologies and libraries are available and properly installed in your environment.
+- Data collection: SpaceX API
+- Implementation: Python, Numpy, Pandas, scikit-learn
+- Server: Python server
+- Frontend: HTML, Streamlit
+- Please ensure that these technologies and libraries are available and properly installed in your environment.
 
 
 ## Conclusion

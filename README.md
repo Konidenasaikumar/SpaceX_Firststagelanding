@@ -28,7 +28,7 @@ The project requires the following technologies:
 - Implementation: Python, Numpy, Pandas, scikit-learn
 - Server: Python server
 - Frontend: HTML, Streamlit
-- Please ensure that these technologies and libraries are available and properly installed in your environment.
+
 
 
 ## Conclusion

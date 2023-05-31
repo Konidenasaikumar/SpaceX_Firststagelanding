@@ -20,6 +20,17 @@ The project will follow the following steps:
 4. Model Development: Machine learning model is built to predict landing outcome of the Falcon 9 first stage. Several classification algorithms were explored and evaluated to identify the most accurate and reliable model.
 5. Cost Estimation: Utilize the predicted landing outcomes to estimate the cost of a launch.
 
+## Technologies Used
+
+The project requires the following technologies:
+
+Data collection: SpaceX API
+Implementation: Python, Numpy, Pandas, scikit-learn
+Server: Python server
+Frontend: HTML, Streamlit
+Please ensure that these technologies and libraries are available and properly installed in your environment.
+
+
 ## Conclusion
 
 By accurately predicting the landing outcome of the Falcon 9 first stage, this project provides valuable insights into the cost of a launch. Alternate companies interested in competing with SpaceX for rocket launches can utilize this information to make informed decisions regarding pricing and bid competitiveness. The prediction model developed as part of this project contributes to the advancement of cost-effective space exploration and supports cost estimation in the commercial space industry.

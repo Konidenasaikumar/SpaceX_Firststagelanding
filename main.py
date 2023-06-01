@@ -5,7 +5,8 @@ import seaborn as sns
 import pickle
 from streamlit_option_menu import option_menu
 import base64
-
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.ensemble import RandomForestClassifier
 
 # Set page configuration
 st.set_page_config(layout='wide')

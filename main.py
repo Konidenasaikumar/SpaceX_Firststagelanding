@@ -164,7 +164,7 @@ if selected == 'Project':
 
         #st.write(df1)
         #calling pickle file for encoding
-        with open('/encoder_pickle') as f:
+        with open('encoder_pickle') as f:
             en=pickle.load(f)
         #encoding using the pickle module
         encoded_data = en.transform(df1)

@@ -127,7 +127,7 @@ if selected == 'Project':
         GridFin=st.selectbox(
         "Whether the rocket's first stage has Grid Fins?",
         ('Yes', 'No'),help='Grid fins are aerodynamic surfaces attached to the rocket that help stabilize it during descent and landing')
-        Gridfins=''
+        GridFins=''
         if GridFin=='Yes':
             GridFins='True'
         else:

@@ -154,7 +154,7 @@ if selected == 'Project':
             'What is the version or block of Falcon 9 rocket?', (1.0,2.0,3.0,4.0,5.0), help='The "Block" column refers to the version or block of the Falcon 9 rocket. SpaceX divides the Falcon 9 rockets into different blocks, each representing a specific version or iteration of the rocket design. Higher block numbers usually indicate newer versions or upgrades of the Falcon 9 rocket. Tracking the block number can provide insights into the evolution of the Falcon 9 design and any performance improvements over time.')
         PayloadMass=st.slider('Enter the Payload mass in kg', min_value=300.0, max_value=20000.0, value=750.0, step=50.0, help='The Payload Mass refers to the mass of the payload carried by the Falcon 9 rocket for each launch. It represents the total mass of the payload, including any satellites, cargo, or other objects being transported into space.') 
         #Calling the model object with the help of pickle module(Model used is Logistic Regression))
-        with open('model_pickle'. 'rb') as f:
+        with open('model_pickle', 'rb') as f:
             mp=pickle.load(f)
         #Taking input into dictionary
         dict= {'BoosterVersion':BoosterVersion , 'Orbit':Orbit , 'LaunchSite': LaunchSite,'Reused':Reused, 'GridFins': GridFins, 'Legs': Legs}

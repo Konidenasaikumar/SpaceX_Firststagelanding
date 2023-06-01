@@ -3,3 +3,4 @@ pandas==1.5.2
 seaborn==0.12.2
 streamlit==1.22.0
 streamlit_option_menu==0.3.6
+scikit-learn>=1.0.2

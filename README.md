@@ -1,7 +1,7 @@
 # Falcon 9 First Stage Landing Prediction
 
 This project aims to predict whether the first stage of the Falcon 9 rocket will successfully land. The ability to accurately predict the landing outcome is crucial as it directly impacts the cost of a launch. SpaceX, known for its cost-effective operations, advertises Falcon 9 rocket launches on its website with a price tag of 62 million dollars, significantly lower than other providers whose costs can go up to 165 million dollars per launch. This cost advantage is largely due to SpaceX's ability to reuse the first stage of the Falcon 9 rocket.
-# Falcon 9 Family
+## Falcon 9 Family
 ![Image Alt Text](Falcon9_rocket_family.svg)
 ## Objective
 

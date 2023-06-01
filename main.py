@@ -76,7 +76,7 @@ st.markdown(
 if selected == 'Home':
     st.markdown("<h1 class='title'>SpaceX Falcon 9 First Stage Landing Prediction</h1>", unsafe_allow_html=True)
 
-    with open('/Images/image.png', "rb") as file:
+    with open('Images/image.png', "rb") as file:
         image_data = file.read()
 
     image_base64 = base64.b64encode(image_data).decode()

@@ -176,10 +176,10 @@ if selected == 'Project':
             
             if predictions == 0:
                 st.write('First Stage landing might not be succesfull')
-                st.image('/Volumes/Sk_drive_space/Python_practise/SpaceX/Images/crash.gif')
+                st.image('/Images/crash.gif')
             else:
                 st.write('First Stage landing will be succesfull')
-                st.image('/Volumes/Sk_drive_space/Python_practise/SpaceX/Images/landing_1.gif')
+                st.image('/Images/landing_1.gif')
 if selected == 'Contact':
     st.markdown("<h1 class='title'>Contact Information</h1>", unsafe_allow_html=True)
     st.markdown(
